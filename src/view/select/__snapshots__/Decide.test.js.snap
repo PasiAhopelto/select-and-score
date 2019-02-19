@@ -1,7 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Is initially UNDECIDED 1`] = `
-<div
+<form
   decision={3}
-/>
+>
+  <label>
+    Kyllä
+    <input
+      name="decision"
+      onChange={[Function]}
+      type="radio"
+      value="yes"
+    />
+  </label>
+  <label>
+    Ei
+    <input
+      name="decision"
+      onChange={[Function]}
+      type="radio"
+      value="no"
+    />
+  </label>
+  ;
+</form>
 `;
